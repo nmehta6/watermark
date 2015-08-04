@@ -1,0 +1,10 @@
+{
+  "generator-fatarrow": {
+    "appname": "watermark",
+    "appdescription": "a fatarrow app",
+    "scriptLanguages": [],
+    "styleLanguages": [],
+    "templateLanguages": [],
+    "version": "1.2.0"
+  }
+}

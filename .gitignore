@@ -1,0 +1,11 @@
+.temp/
+bower_components/
+dist/
+coverage/
+stats/
+node_modules/
+npm-debug.log
+phantomjsdriver.log
+bower.json
+protractorScreenshots
+testResults
