@@ -8,6 +8,7 @@ angular.module('app').controller('homeController', function() {
 
 	var canvas = document.getElementById('videocanvas');
 	var context = canvas.getContext('2d');
+	context.font = 'bold 48px sans-serif';
 
 	var cw = '1280';
 	var ch = '720';
@@ -47,6 +48,10 @@ angular.module('app').controller('homeController', function() {
 
 		// Draw the pixels onto the visible canvas
 		c.putImageData(idata, 0, 0);
+		c.fillText('Watermark Demo', 58, 165);
+		c.fillText('Watermark Demo', 558, 165);
+		c.fillText('Watermark Demo', 58, 565);
+		c.fillText('Watermark Demo', 558, 565);
 
 		// Start over!
 		setTimeout(draw, 20, v, c, bc, w, h);
