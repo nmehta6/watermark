@@ -4,7 +4,7 @@ angular.module('app').config(['$routeProvider',
 		.when('/', {
 			controller: 'homeController',
 			controllerAs: 'controller',
-			templateUrl: 'home/home.html'
+			templateUrl: '/watermark/home/home.html'
 		});
 	}
 ]);
