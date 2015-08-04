@@ -3,7 +3,7 @@ angular.module('app').controller('homeController', function() {
 	var backcontext = back.getContext('2d');
 
 	var videoElement = document.createElement('video');
-	videoElement.setAttribute('src', 'img/sintel-trailer.mp4');
+	videoElement.setAttribute('src', '/watermark/img/sintel-trailer.mp4');
 	videoElement.setAttribute('autoplay', 'true');
 
 	var canvas = document.getElementById('videocanvas');
