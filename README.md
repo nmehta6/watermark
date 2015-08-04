@@ -1,5 +1,5 @@
 # watermark
-a fatarrow app
+a proof of concept to watermark videos in the browser
 
 **built with**
 
