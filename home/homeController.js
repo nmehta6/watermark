@@ -5,6 +5,7 @@ angular.module('app').controller('homeController', function() {
 	var videoElement = document.createElement('video');
 	videoElement.setAttribute('src', '/watermark/img/sintel-trailer.mp4');
 	videoElement.setAttribute('autoplay', 'true');
+	videoElement.setAttribute('loop', 'true');
 
 	var canvas = document.getElementById('videocanvas');
 	var context = canvas.getContext('2d');
