@@ -1,4 +1,4 @@
-angular.module('app').controller('homeController', function($timeout) {
+angular.module('app').controller('canvasController', function($timeout) {
 	var videoElement = document.createElement('video');
 	videoElement.setAttribute('src', 'img/big_buck_bunny_1080p_h264.mov');
 	videoElement.setAttribute('autoplay', 'true');
@@ -17,10 +17,6 @@ angular.module('app').controller('homeController', function($timeout) {
 
 			// First, draw it into the backing canvas
 			c.drawImage(v, 0, 0, window.innerWidth, window.innerHeight);
-			if (c.font !== '96px Arial') {
-				c.font = '96px Arial';
-			}
-			c.fillText('Watermark Demo', 58, 165);
 
 			// Start over!
 			setTimeout(draw, 20, c, v);
